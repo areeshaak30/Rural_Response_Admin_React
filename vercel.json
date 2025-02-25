@@ -1,0 +1,9 @@
+{
+  "rewrites": [
+    { "source": "/", "destination": "/" },
+    { "source": "/(.*)", "destination": "/" },
+    { "source": "/Alerts", "destination": "/Alerts" },
+    { "source": "/Dashboard", "destination": "/Dashboard" },
+    { "source": "/User", "destination": "/User" }
+  ]
+}

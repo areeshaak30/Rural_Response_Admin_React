@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.list-style {
+  @apply flex gap-3 mt-4 hover:bg-[#3B9F9A] hover:text-white  p-[10px] mx-3 rounded;
+}
+.list-stylee{
+ @apply hover:bg-[#3B9F9A] hover:text-white mx-3 rounded
+}
+.head-style {
+  @apply w-[20%] border-r-2 text-[16px] font-semibold p-4;
+}
+.content-style {
+  @apply bg-[#F9FAFA] pl-4 font-medium text-[14px] py-5;
+}
+.list-style.active {
+  @apply bg-[#3B9F9A] text-white; /* Change to your desired active background color */
+}
+.list-stylee.active {
+  @apply bg-[#3B9F9A] text-white; /* Change to your desired active background color */
+}
+.content-stylee {
+  @apply  pl-4 font-medium text-[14px] py-5;
+}
+.list-style:hover img {
+  filter: brightness(0) invert(1);
+}
+.list-stylee:hover img {
+  filter: brightness(0) invert(1);
+}
+/* Add this CSS to your Tailwind CSS file */
+.list-style.active img {
+  filter: brightness(0) invert(1);
+}
+.list-stylee.active img {
+  filter: brightness(0) invert(1);
+}
+
